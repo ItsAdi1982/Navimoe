@@ -216,37 +216,37 @@ const addItem = (item) => {
   allItemNames.push(normalizedItem.name());
 };
 
-// Bodies R6
 const TUBBY_BUS = 'tubby_bus';
-addItem({n: TUBBY_BUS, nEn: 'Tubby Bus', nZh: '肥猫巴士', nJa: 'おデブバス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 35825 , power: 35, b: BONUS_WHEEL_25, sl: SLOT_233});
-
-const CLAW_RIDER = 'claw_rider';
-addItem({n: CLAW_RIDER, nEn: 'Claw Rider', nZh: '利爪骑士', nJa: 'クローライダー', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 45312, power: 35, b: BONUS_WEAPON_15, sl: SLOT_232});
+addItem({n: TUBBY_BUS, nEn: 'Tubby Bus', nZh: '肥猫巴士', nJa: 'おデブバス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 32500 , power: 35, b: BONUS_WHEEL_25, sl: SLOT_233});
 
 // Base up, HP SIP changed
 const COOL_DUCKY = 'cool_ducky';
-addItem({n: COOL_DUCKY, nEn: 'Cool Ducky', nZh: '酷酷鸭', nJa: 'クールダック', c: G_BODY, r: G_R6, s:G_SP_NATURALIS, sip: G_SIP_R6, hp1: 52560, power: 35, b: BONUS_GADGET_10, sl: SLOT_123});
+addItem({n: COOL_DUCKY, nEn: 'Cool Ducky', nZh: '酷酷鸭', nJa: 'クールダック', c: G_BODY, r: G_R6, s:G_SP_NATURALIS, sip: G_SIP_R6, hp1: 55000, power: 35, b: BONUS_GADGET_10, sl: SLOT_123});
 
 const IRON_MAIDEN = 'iron_maiden';
-addItem({n: IRON_MAIDEN, nEn: 'Iron Maiden', nZh: '铁娘子', nJa: 'アイアンメイデン', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 48120, power: 35, b: BONUS_WHEEL_15, sl: SLOT_222});
-
-const POPSICLE_BEAST = 'popsicle_beast';
-addItem({n: POPSICLE_BEAST, nEn: 'Popsicle Beast', nZh: '冰棒野兽', nJa: 'アイスキャンデー・ビースト', c: G_BODY, r: G_R6, s:G_SP_GLUTTONY, hp1: 44713, power: 35, b: BONUS_WEAPON_10, sl: SLOT_421});
+addItem({n: IRON_MAIDEN, nEn: 'Iron Maiden', nZh: '铁娘子', nJa: 'アイアンメイデン', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 52932, power: 40, b: BONUS_WHEEL_15, sl: SLOT_222});
 
 const PHANTOM_CIRCUS = 'phantom_circus';
-addItem({n: PHANTOM_CIRCUS, nEn: 'Phantom Circus', nZh: '幻影马戏团', nJa: 'ファントムサーカス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 46088, power: 40, b: BONUS_GADGET_20, sl: SLOT_203});
+addItem({n: PHANTOM_CIRCUS, nEn: 'Phantom Circus', nZh: '幻影马戏团', nJa: 'ファントムサーカス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 51000, power: 40, b: BONUS_GADGET_20, sl: SLOT_203});
 
 const RAM = 'ram';
-addItem({n: RAM, nEn: 'R.A.M.', nZh: 'R.A.M.', nJa: 'R.A.M.', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 32568, power: 35, b: BONUS_WEAPON_10, sl: SLOT_331});
+addItem({n: RAM, nEn: 'R.A.M.', nZh: 'R.A.M.', nJa: 'R.A.M.', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 33056, power: 40, b: BONUS_WEAPON_10, sl: SLOT_332});
 
-const SCHRODINTECH = 'schrodintech'; 
+const SCHRODINTECH = 'schrodintech';
 addItem({n: SCHRODINTECH, nEn: 'Schrodintech', nZh: '薛定谔科技', nJa: 'シュレーディンテック', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 40329, power: 40, b: BONUS_GADGET_10, sl: SLOT_223});
 
 const BLOSSOM_STAR = 'blossom_star';
-addItem({n: BLOSSOM_STAR, nEn: 'Blossom Star', nZh: '繁花之星', nJa: 'ブロッサムスター', c: G_BODY, r: G_R6, s:G_SP_NATURALIS, hp1: 40164, power: 35, b: BONUS_WEAPON_10, sl: SLOT_222});
+addItem({n: BLOSSOM_STAR, nEn: 'Blossom Star', nZh: '繁花之星', nJa: 'ブロッサムスター', c: G_BODY, r: G_R6, s:G_SP_NATURALIS, hp1: 42000, power: 35, b: BONUS_WEAPON_10, sl: SLOT_222});
 
 const GREEN_DRAGON = 'green_dragon';
-addItem({n: GREEN_DRAGON, nEn: 'Green Dragon', nZh: '绿龙', nJa: 'グリーンドラゴン', c: G_BODY, r: G_R6, s:G_SP_NATURALIS, hp1: 48392, power: 35, b: BONUS_WEAPON_10, sl: SLOT_232});
+addItem({n: GREEN_DRAGON, nEn: 'Green Dragon', nZh: '绿龙', nJa: 'グリーンドラゴン', c: G_BODY, r: G_R6, s:G_SP_NATURALIS, hp1: 50000, power: 35, b: BONUS_WEAPON_10, sl: SLOT_232});
+
+const CLAW_RIDER = 'claw_rider';
+addItem({n: CLAW_RIDER, nEn: 'Claw Rider', nZh: '爪骑手', nJa: 'クローライダー', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 45312, power: 35, b: BONUS_WEAPON_15, sl: SLOT_232});
+
+const POPSICLE_BEAST = 'popsicle_beast';
+addItem({n: POPSICLE_BEAST, nEn: 'Popsicle Beast', nZh: '冰棒兽', nJa: 'ポップシクルビースト', c: G_BODY, r: G_R6, s:G_SP_GLUTTONY, hp1: 42382, power: 45, b: BONUS_WEAPON_10, sl: SLOT_421});
+
 
 // Bodies R5
 const STINGY_BANDIT = 'stingy_bandit';
